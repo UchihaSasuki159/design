@@ -1,0 +1,161 @@
+*{margin: 0;padding: 0;}
+image{border: none;}
+ul,li{list-style: none;}
+a{text-decoration: none;}
+input{border: none;}
+.clear:after{content:"";font-size: 0;height: 0;line-height: 0;display: block;clear: both;}
+.clear{zoom:1}
+#design{background: url("../designImages/bg_01.png") repeat-y;font-size: 0;}
+#design .header{position:fixed;z-index:5;width:100%;background:rgba(0,0,0,0.5);  }
+#design .header .top{width: 1200px;margin: 0 auto;padding: 20px 14px 0 10px;}
+#design .header .top .logo{float: left;padding-top: 19px;}
+#design .header .top .r_text{float: right;padding-left: 10px;padding-top: 31px;}
+#design .header .top .r_text li{float: left;}
+#design .header .top .r_text li a{font-size: 12px;line-height: 35px;
+height: 34px;color: #777777;padding-left: 14px;}
+.header .top .r_text .searchbox{margin-top: 27px;position: relative;margin-bottom: 11px;}
+.header .top .r_text input{height: 31px;width: 197px;border-radius: 15px;
+    border: 2px solid #767674;background:none;padding-left: 10px;}
+.header .top .r_text button{width: 35px;height: 33px;border-radius: 50%;
+    position: absolute;left: 174px;top: 0;
+    background-image: url(../designImages/search.png);background-color: #646465;
+    background-repeat: no-repeat;background-size: 25px;background-position: 3px 3px;}
+/*#design .header .top .r_text .input{float:right;height:27px;width:160px;
+border: 1px solid #2e2e2d;border-radius: 14px;}
+#design .header .top .r_text .text{height:27px;width:116px;
+    background:rgba(0,0,0,0.5);padding-left:18px;float:left;color:#cac8c9;
+}
+#design .header .r_text .sub{height:27px;width:26px;
+    background:url(../designImages/search.png) no-repeat right center;
+    background-color:#585858;border-radius: 50%;}*/
+#design .banner{background: url("../designImages/3.png") no-repeat;height: 975px;width: 100%;}
+#design .banner h3{padding: 310px 0 0 435px;font-size: 32px;color: #c9c9c9;
+    line-height: 32px;height: 32px;font-weight: bold;}
+#design .banner p{padding-left:572px;font-size: 28px;color: #c9c9c9;line-height: 28px;
+    height: 28px;font-weight: bold;}
+#design .banner i{font-size: 15px;color: #9d9d9d;line-height: 39px;
+    height: 39px;}
+#design .title{width: 278px;text-align: center;margin: 0 auto;}
+#design .title h5{font-size: 24px;color: #dfddda;line-height: 36px;
+    height: 36px;font-weight: bold;}
+#design .title p{font-size: 13px;color: #7a7979;line-height: 21px;
+    height: 21px;}
+#design .designer .title{padding: 180px 0 88px 0;}
+#design .designer .content li .left{float: left;width: 50%;overflow: hidden;height: 529px;}
+#design .designer .content li .right{float: left;width: 50%;overflow: hidden;height: 529px;}
+#design .designer .content .odd .left{background: #161515;}
+#design .designer .content .odd .left .left_wrap{padding:0 70px 0 30%; }
+#design .designer .content li h4{font-size: 17px;color: #c2c2c2;line-height: 42px;
+    height: 42px;font-weight: bold;padding-top: 127px;}
+#design .designer .content li p{font-size: 17px;color: #dedede;line-height: 37px;
+    height: 37px;font-weight: bold;padding-bottom: 7px;}
+#design .designer .content li .text{font-size: 14px;color: #b8b7b4;line-height: 34px;
+    padding-bottom: 20%;font-weight: bold;}
+#design .btn{font-size: 14px;color: #918e8e;line-height: 29px;
+    height: 29px;display: block;border: 1px solid #817d7b;
+    border-radius: 10px;padding:0 10px;}
+#design .designer .content li .btn{margin-bottom: 26px;float: right;}
+#design .designer .content .even .right{ background: #161515;
+    }
+#design .designer .content li .right .right_wrap{padding:0 30% 0 70px;}
+/*#design .designer .content .even .left{padding-left: 357px;width: 601px;}*/
+#design .designer .content .even .left img{float: right;}
+#design .designer .content .even .text{padding-bottom: 15%}
+#design .about{margin-top: 184px;background: url("../designImages/2.png")no-repeat;
+height:465px;}
+#design .about .title{padding-top: 74px;}
+#design .about .title h5{color: #a6a6a6;font-size: 28px;line-height: 40px;
+height: 40px;}
+#design .about .title div{color: #a7a1a1;font-size: 13px;line-height: 20px;
+    height: 20px;}
+#design .about .text{width: 944px;margin: 0 auto;text-align: center;
+padding-top: 22px;}
+#design .about .text p{font-size: 14px;line-height: 33px;color: #9a9a9a;}
+#design .about .text a{display: inline-block;margin-top: 42px;}
+#design .free .title{padding: 170px 0 85px 0;}
+#design .free .one{background: rgba(0,0,0,0.3);}
+#design .free .list .inner{width: 1180px;margin: 0 auto;}
+#design .free .list .inner .left{float: left;width: 50%;overflow: hidden;text-align: right;}
+#design .free .list .inner .left img{margin-left: -65px;}
+#design .free .list .inner .right{float: left;width: 50%;overflow: hidden;}
+#design .free .list .inner p{padding: 80px 2%;width: 566px;
+font-size: 15px;line-height: 36px;color: #999999;}
+#design .free .list .inner .left p{width: 546px;text-align: left;}
+#design .free .list .inner .left a{display: inline-block;margin-right: 20px;}
+#design .free .two{padding-bottom: 250px;}
+#design .footer{background: #2a2a2d;padding-top: 90px;padding-bottom: 46px;
+    text-align: center;color: #141416;font-size: 23px;}
+#design .footer .inner{width: 980px;margin: 0 auto;}
+#design .footer .inner .nav{padding-top: 58px;}
+#design .footer .inner .nav li{float: left;}
+#design .footer .inner .nav li a{display: block;margin: 0 40px;color: #141416;
+height: 70px;line-height: 70px;}
+#design .footer .inner .nav li a:hover{color: #488230;}
+#design .footer .inner p{height: 64px;line-height: 64px;}
+/*以下是btn css插件样式*/
+#design .btn:hover{-webkit-animation: pulse 1s ease-in infinite;
+    animation: pulse 1s ease-in infinite;
+    background: -webkit-radial-gradient(circle, rgba(249, 135, 155, 0.25) 43%, rgba(0, 0, 0, 0) 50%) 0 0/1em 1em, -webkit-radial-gradient(circle, rgba(249, 135, 155, 0.25) 43%, rgba(0, 0, 0, 0) 50%) 0.5em 0.5em/2em 2em;
+    background: radial-gradient(circle, rgba(249, 135, 155, 0.25) 43%, rgba(0, 0, 0, 0) 50%) 0 0/1em 1em, radial-gradient(circle, rgba(249, 135, 155, 0.25) 43%, rgba(0, 0, 0, 0) 50%) 0.5em 0.5em/2em 2em;
+    color: #0bdcb7;}
+@-webkit-keyframes pulse {
+    50% {
+        background-position: 0.66em 0.66em, -0.33em -0.33em;
+    }
+    100% {
+        background-size: 2em 2em, 1em 1em;
+        background-position: -1.5em -1.5em, -1em -1em;
+    }
+}
+
+@keyframes pulse {
+    50% {
+        background-position: 0.66em 0.66em, -0.33em -0.33em;
+    }
+    100% {
+        background-size: 2em 2em, 1em 1em;
+        background-position: -1.5em -1.5em, -1em -1em;
+    }
+}
+.bumpy-char {
+    line-height: 3.4em;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
